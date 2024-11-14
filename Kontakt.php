@@ -2,6 +2,58 @@
 <html lang="en">
             
 <?php require_once('layout\header.php')?>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .kontakt-container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
 
             <!-- Navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
@@ -158,6 +210,25 @@
                     </div>
                 </div>
             </header>
+
+                   <!-- Kontaktieren sie mich -->
+        <div class="kontakt-container">
+            <h1>Kontaktieren Sie mich</h1>
+            <form action="#" method="POST">
+                <label for="name">Ihr Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Ihre E-Mail-Adresse:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Ihre Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" name="submit">Nachricht senden</button>
+            </form>
+        </div>
+    <!-- Kontaktieren sie mich -->
+
             <!-- About Section-->
             <section class="bg-light py-5">
                 <div class="container px-5">
