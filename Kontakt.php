@@ -24,12 +24,12 @@
                         <div class="col-xxl-5">
                             <!-- Header text content-->
                             <div class="text-center text-xxl-start">
-                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">Verantwortung &middot; Kommunikation &middot; Menschlichkeit &middot; Respekt</div></div>
-                                <div class="fs-3 fw-light text-muted">Erweitern sie ihr Team mit Herzblut und Kompetenz</div> <br>
-                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Lukas_Finkeldey Systemintegrator</span></h1>
+                                <div class="badge bg-gradient-primary-to-secondary text-white mb-4"><div class="text-uppercase">E-Mail &middot; Mobil &middot; Social Medai </div></div>
+                                <div class="fs-3 fw-light text-muted">Meine Mobilfunknummer gibt es nach der erster Kontaktaufnahme per E-mail oder Social Media persönlich.</div> <br>
+                                <h1 class="display-3 fw-bolder mb-5"><span class="text-gradient d-inline">Kontakt</span></h1>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="about.php">About me</a>
-                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="Kontakt.php">Kontakt</a>
+                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href='mailto:Lukas8897f@web.de'>E-mail</a>
+                                    <a class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder" href="https://www.linkedin.com/in/lukas-finkeldey-779787238/">Linkedin</a>
                                 </div>
                             </div>
                         </div>
